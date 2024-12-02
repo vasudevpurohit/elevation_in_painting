@@ -27,6 +27,8 @@
 
 ![ours_2b](/figures/ours_2b.png)
 
+![ours_3](/figures/ours_3.png)
+
 ## Train
 
 For example, if you want to train a model on Places, run a bash script with
