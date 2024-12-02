@@ -31,54 +31,5 @@ The details of the following models can be found on the project [website](https:
 
 ![ours_3](/figures/ours_3.png)
 
-## Train
-
-For example, if you want to train a model on Places, run a bash script with
-```shell
-python train.py \
-    --outdir=output_path \
-    --gpus=8 \
-    --batch=32 \
-    --metrics=fid36k5_full \
-    --data=training_data_path \
-    --data_val=val_data_path \
-    --dataloader=datasets.dataset_512.ImageFolderMaskDataset \
-    --mirror=True \
-    --cond=False \
-    --cfg=places512 \
-    --aug=noaug \
-    --generator=networks.mat.Generator \
-    --discriminator=networks.mat.Discriminator \
-    --loss=losses.loss.TwoStageLoss \
-    --pr=0.1 \
-    --pl=False \
-    --truncation=0.5 \
-    --style_mix=0.5 \
-    --ema=10 \
-    --lr=0.001
-```
-
-Description of arguments:
-- outdir: output path for saving logs and models
-- gpus: number of used gpus
-- batch: number of images in all gpus
-- metrics: find more metrics in 'metrics/metric\_main.py'
-- data: training data
-- data\_val: validation data
-- dataloader: you can define your own dataloader
-- mirror: use flip augmentation or not 
-- cond: use class info, default: false
-- cfg: configuration, find more details in 'train.py'
-- aug: use augmentation of style-gan-ada or not, default: false
-- generator: you can define your own generator
-- discriminator: you can define your own discriminator
-- loss: you can define your own loss
-- pr: ratio of perceptual loss
-- pl: use path length regularization or not, default: false
-- truncation: truncation ratio proposed in stylegan
-- style\_mix: style mixing ratio proposed in stylegan
-- ema: exponoential moving averate, ~K samples
-- lr: learning rate
-
 ## License and Acknowledgement
 The code and models in this repo are for research purposes only. Our code is bulit upon [MAT](https://github.com/fenglinglwb/MAT).
