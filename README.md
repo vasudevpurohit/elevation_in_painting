@@ -21,6 +21,8 @@
 
 ## Visualization
 
+The details of the following models can be found on the project ([website](https://www.google.com/))
+
 ![baseline](/figures/baseline.png)
 
 ![ours_1](/figures/ours_1.png)
