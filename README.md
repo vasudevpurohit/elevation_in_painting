@@ -1,5 +1,5 @@
 # CPSC - 8810 Machine Learning Based Image Synthesis
-  The aim of this work is to enable in-painting on occluded and incomplete 2.5 dimensional elevation maps. The idea is to then utilize these in-painted maps for a more informed vision-aware planning. The in-painting model is a mask-aware transformer borrowed directly from ([here](https://arxiv.org/abs/2203.15270)).
+  The aim of this work is to enable in-painting on occluded and incomplete 2.5 dimensional elevation maps. The idea is to then utilize these in-painted maps for a more informed vision-aware planning. The in-painting model is a mask-aware transformer (MAT) borrowed directly from ([here](https://arxiv.org/abs/2203.15270)).
 
 #### Benjamin Johnson, Vasudev Purohit
 
@@ -79,17 +79,11 @@
 
 ---
 
-## Web Demo
-
-Thank [Replicate](https://replicate.com/home) for providing a [web demo](https://replicate.com/fenglinglwb/large-hole-image-inpainting) for our MAT. But I didn't check if this demo is correct. You are recommended to use our models as following.
-
----
-
 ## Visualization
 
 We present a transformer-based model (MAT) for large hole inpainting with high fidelity and diversity.
 
-![large hole inpainting with pluralistic generation](/figures/teasing.png)
+![large hole inpainting with pluralistic generation](/figures/baseline.png)
 
 Compared to other methods, the proposed MAT restores more photo-realistic images with fewer artifacts.
 
