@@ -21,9 +21,11 @@
 
 ## Visualization
 
-![large hole inpainting with pluralistic generation](/figures/baseline.png)
+![baseline](/figures/baseline.png)
 
-![comparison with sotas](/figures/sota.png)
+![ours_1](/figures/ours_1.png)
+
+![ours_2b](/figures/ours_2b.png)
 
 ## Train
 
