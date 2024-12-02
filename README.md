@@ -8,13 +8,15 @@
 
 ## **Project Changes**
 
-- The original work on MAT loaded random masks. We changed this part of the code to now load custom masks that are correlated to the elevations seen on the 2.5d maps. Changes had to be made to the training and validation scripts to load the correct masks too.
+- The original work loads random masks. We changed this part of the code to now load custom masks that are correlated to the elevations seen on the 2.5d maps. Changes had to be made to the training and validation scripts to load the correct masks too.
 
 - We trained and validated with a smaller dataset owing to the project timelines, and hence had to change the metrics script during validation.
 
 - For any further queries and questions, you can contact Benjamin Johnson (bij@g.clemson.edu) or Vasudev Purohit (vpurohi@g.clemson.edu). As detailed on the project ([website]), the evaluation metrics for the different models trained are shown as follows:
 
 ![metrics](/figures/metrics.png)
+
+- To utilize the original work, refer ([MAT](https://github.com/fenglinglwb/MAT)). This code works specifically with the masks and images shown below.
 ---
 
 ## Visualization
