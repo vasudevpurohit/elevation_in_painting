@@ -6,74 +6,15 @@
 #### [\[Website\]](https://arxiv.org/abs/2203.15270)
 ---
 
-## :rocket:  :rocket:  :rocket: **Project Changes**
+## **Project Changes**
 
-- **\[2022.10.03\]** Model for FFHQ-512 is available. ([Link](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155137927_link_cuhk_edu_hk/ESwt5gvPs4JOvC76WAEDfb4BSJZNy-qsfJSUZz2kTxYyWw?e=71nHCJ))
+- The original work on MAT loaded random masks. We changed this part of the code to now load custom masks that are correlated to the elevations seen on the 2.5d maps. Changes had to be made to the training and validation scripts to load the correct masks too.
 
-- **\[2022.09.10\]** We could provide all testing images of Places and CelebA inpainted by our MAT and other methods. Since there are too many images, please send an email to wenboli@cse.cuhk.edu.hk and explain your needs.
+- We trained and validated with a smaller dataset owing to the project timelines, and hence had to change the metrics script during validation.
 
-- **\[2022.06.21\]** We provide a SOTA Places-512 model ([Places\_512\_FullData.pkl](https://mycuhk-my.sharepoint.com/:f:/g/personal/1155137927_link_cuhk_edu_hk/EuY30ziF-G5BvwziuHNFzDkBVC6KBPRg69kCeHIu-BXORA?e=7OwJyE)) trained with full Places data (8M images). It achieves significant improvements on all metrics.
+- For any further queries and questions, you can contact Benjamin Johnson (bij@g.clemson.edu) or Vasudev Purohit (vpurohi@g.clemson.edu). As detailed on the project ([website]), the evaluation metrics for the different models trained are shown as follows:
 
-    <table>
-    <thead>
-      <tr>
-        <th rowspan="2">Model</th>
-        <th rowspan="2">Data</th>
-        <th colspan="3">Small Mask</th>
-        <th colspan="3">Large Mask</th>
-      </tr>
-      <tr>
-        <th>FID&darr;</th>
-        <th>P-IDS&uarr;</th>
-        <th>U-IDS&uarr;</th>
-        <th>FID&darr;</th>
-        <th>P-IDS&uarr;</th>
-        <th>U-IDS&uarr;</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>MAT (Ours)</td>
-        <td>8M</td>
-        <td><b>0.78</b></td>
-        <td><b>31.72</b></td>
-        <td><b>43.71</b></td>
-        <td><b>1.96</b></td>
-        <td><b>23.42</b></td>
-        <td><b>38.34</b></td>
-      </tr>
-      <tr>
-        <td>MAT (Ours)</td>
-        <td>1.8M</td>
-        <td>1.07</td>
-        <td>27.42</td>
-        <td>41.93</td>
-        <td>2.90</td>
-        <td>19.03</td>
-        <td>35.36</td>
-      </tr>
-      <tr>
-        <td>CoModGAN</td>
-        <td>8M</td>
-        <td>1.10</td>
-        <td>26.95</td>
-        <td>41.88</td>
-        <td>2.92</td>
-        <td>19.64</td>
-        <td>35.78</td>
-      </tr>
-      <tr>
-        <td>LaMa-Big</td>
-        <td>4.5M</td>
-        <td>0.99</td>
-        <td>22.79</td>
-        <td>40.58</td>
-        <td>2.97</td>
-        <td>13.09</td>
-        <td>32.39</td>
-      </tr>
-    </tbody>
-    </table>
+![metrics]](/figures/metrics.png)    
 
 - **\[2022.06.19\]** We have uploaded the CelebA-HQ-256 model and masks. Because the original model was lost, we retrained the model so that the results may slightly differ from the reported ones.
 
