@@ -15,7 +15,6 @@
 - For any further queries and questions, you can contact Benjamin Johnson (bij@g.clemson.edu) or Vasudev Purohit (vpurohi@g.clemson.edu). As detailed on the project ([website]), the evaluation metrics for the different models trained are shown as follows:
 
 ![metrics](/figures/metrics.png)
-
 ---
 
 ## Visualization
