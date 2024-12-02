@@ -1,14 +1,12 @@
-# MAT: Mask-Aware Transformer for Large Hole Image Inpainting (CVPR 2022 Best Paper Finalist, Oral)
+# CPSC - 8810 Machine Learning Based Image Synthesis
+  The aim of this work is to enable in-painting on occluded and incomplete 2.5 dimensional elevation maps. The idea is to then utilize these in-painted maps for a more informed vision-aware planning. The in-painting model is a mask-aware transformer borrowed directly from ([here](https://arxiv.org/abs/2203.15270)).
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mat-mask-aware-transformer-for-large-hole/image-inpainting-on-places2-1)](https://paperswithcode.com/sota/image-inpainting-on-places2-1?p=mat-mask-aware-transformer-for-large-hole)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mat-mask-aware-transformer-for-large-hole/image-inpainting-on-celeba-hq)](https://paperswithcode.com/sota/image-inpainting-on-celeba-hq?p=mat-mask-aware-transformer-for-large-hole)
+#### Benjamin Johnson, Vasudev Purohit
 
-#### Wenbo Li, Zhe Lin, Kun Zhou, Lu Qi, Yi Wang, Jiaya Jia
-
-#### [\[Paper\]](https://arxiv.org/abs/2203.15270)
+#### [\[Website\]](https://arxiv.org/abs/2203.15270)
 ---
 
-## :rocket:  :rocket:  :rocket: **News**
+## :rocket:  :rocket:  :rocket: **Project Changes**
 
 - **\[2022.10.03\]** Model for FFHQ-512 is available. ([Link](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155137927_link_cuhk_edu_hk/ESwt5gvPs4JOvC76WAEDfb4BSJZNy-qsfJSUZz2kTxYyWw?e=71nHCJ))
 
