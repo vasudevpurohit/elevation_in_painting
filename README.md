@@ -21,7 +21,7 @@
 
 ## Visualization
 
-The details of the following models can be found on the project ([website](https://www.google.com/))
+The details of the following models can be found on the project ([website](https://www.google.com/)), but here's a visual representation of the results obtained. The masks in the first two models are only representatives and do not reflect the true masks over which the inpainted results shown here were generated.
 
 ![baseline](/figures/baseline.png)
 
