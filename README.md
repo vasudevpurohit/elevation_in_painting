@@ -19,7 +19,7 @@
 - To utilize the original work, refer ([MAT](https://github.com/fenglinglwb/MAT)). This code works specifically with the masks and images shown below.
 ---
 
-## Visualization
+## In-painting Visualization
 
 The details of the following models can be found on the project [website](https://www.google.com/), but here's a visual representation of the results obtained. The masks in the first two models are only representatives and do not reflect the true masks over which the inpainted results shown here were generated.
 
@@ -30,6 +30,10 @@ The details of the following models can be found on the project [website](https:
 ![ours_2b](/figures/ours_2b.png)
 
 ![ours_3](/figures/ours_3.png)
+
+## Uncertainty Quantification
+
+One of the major limitations of MAT was its inability to report the uncertainty of predictions. This is an important piece in robotics planning owing to the conservativeness/safety of the planned path. Hence, we have now included a script that runs the inference script in an ensemble. The Style Manipulation Module (SMM) in MAT allowed us to generate N different inferences for the same masked images. The disagreement between the outputs can thus be used to quantify the uncertainty.
 
 ## License and Acknowledgement
 The code and models in this repo are for research purposes only. Our code is bulit upon [MAT](https://github.com/fenglinglwb/MAT).
