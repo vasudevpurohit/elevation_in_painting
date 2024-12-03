@@ -3,7 +3,7 @@
 
 #### Benjamin Johnson, Vasudev Purohit
 
-#### [\[Website\]](https://arxiv.org/abs/2203.15270)
+#### [\[Website\]](https://inpaint-elevation.github.io/)
 ---
 
 ## **Project Changes**
